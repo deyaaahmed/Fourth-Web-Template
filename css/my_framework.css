@@ -1,0 +1,317 @@
+/* Start Variables */
+:root {
+  --main-transition: 0.3s;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+/* End Variables */
+/* Start Box */
+.d-flx {
+  display: flex;
+}
+.a-cntr {
+  align-items: center;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.s-btwn {
+  justify-content: space-between;
+}
+.cntr {
+  justify-content: center;
+}
+.d-blk {
+  display: block;
+}
+
+.d-grd {
+  display: grid;
+}
+.d-none {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .blk-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.gap-20 {
+  gap: 20px;
+}
+.gap-5 {
+  gap: 5px;
+}
+/* End Box */
+/* Start Padding + Margin */
+.p-20 {
+  padding: 20px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.ph-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pv-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pv-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.pv-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ph-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.mv-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mv-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.mv-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-0 {
+  margin: 0;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-3 {
+  margin-right: 3px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-6 {
+  margin-bottom: 6px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+/* End Padding + Margin */
+/* Start Color */
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.c-white {
+  color: #fff;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-gray {
+  color: var(--gray-color);
+}
+.c-black {
+  color: #000;
+}
+/* End Color */
+/* Start Position */
+.p-rltv {
+  position: relative;
+}
+.p-abs {
+  position: absolute;
+}
+/* End Position */
+/* Start Font */
+.txt-c {
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-500 {
+  font-weight: 500;
+}
+/* End Font */
+/* Start Border */
+.b-none {
+  border: none;
+}
+.b-eee {
+  border: 1px solid #eee;
+}
+.b-ccc {
+  border: 1px solid #ccc;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+/* End Border */
+/* Start Width + Height */
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-100 {
+  width: 100px;
+}
+.h-100 {
+  height: 100px;
+}
+.h-full {
+  height: 100%;
+}
+/* End Width + Height */
+/* Start Components */
+.cntr-flx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btwn-flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+/* End Components */
