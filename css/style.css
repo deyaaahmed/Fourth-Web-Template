@@ -1001,6 +1001,9 @@ body {
 }
 .profile-page .skills-card ul li {
   padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .profile-page .skills-card ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
@@ -1421,7 +1424,6 @@ body {
   margin-left: auto;
   cursor: pointer;
 }
-
 
 /* End Plans Page */
 /* End Content */
